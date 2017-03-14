@@ -25,7 +25,7 @@ public class Box {
 
 		
 		int a1 = 1;
-		int a2= 21;
+		int a2= 22;
 		if (a1 == a2)
 			System.out.println("Equality");
 	}
