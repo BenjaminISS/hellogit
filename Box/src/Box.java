@@ -13,6 +13,12 @@ public class Box {
 		return w*h*l;
 	}
 	
+	public void displayVolume() {
+		
+		System.out.println("Travis CI");
+		return;
+	}
+	
 	//Main function
 	public static void main(String[] args) {
 		
@@ -23,6 +29,7 @@ public class Box {
 		
 		System.out.println("Hello Box "+b.Volume(2,2,3));
 
+		b.displayVolume();
 		
 		int a1 = 1;
 		int a2= 24;
