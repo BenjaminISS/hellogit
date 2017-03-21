@@ -2,4 +2,4 @@ language: java
 jdk:
   - oraclejdk8
 
-script: ant ./Box/build.xml
+script: ant -file Box/build.xml
